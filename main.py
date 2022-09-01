@@ -15,11 +15,11 @@ while True:
     print(Red + "Let's begin the quiz!")
 
   print("")
-  print("")
+ 
   
   Answer1 = qcolor("What is the name of the planet you live on? ")
   
-  if Answer1 == 'Earth' or Answer1 == 'earth':
+  if Answer1 == 'earth' or Answer1 == 'Earth':
     print(Red + "Correct answer!")
   else:
     print(Red + "wrong answer! The correct answer is Earth" )
@@ -35,7 +35,7 @@ while True:
 
   print("")
 
-  Answer3 = qcolor("What planet is  in front of Earth? ")
+  Answer3 = qcolor("What planet is in front of Earth? ")
   
   if Answer3 == 'Venus' or Answer3 == 'venus':
     print(Red + "Correct answer!")
@@ -114,6 +114,8 @@ while True:
 
   else:
     print(Red + "Have a good day!")
-    
+
+  print("")
+  print("")
   break
 
