@@ -7,7 +7,7 @@ while True:
 
 
   def qcolor(question):
-    return input(Red + question + Blue)
+    return input(Blue + question + Red)
 
   beginning = qcolor("Hello, are you ready for the quiz?")
 
