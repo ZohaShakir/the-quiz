@@ -103,7 +103,7 @@ while True:
   if Answer10 == 'Jupiter' or Answer10 == 'jupiter':
     print(Red + "Correct answer!")
   else:
-    print(Red + "wrong answer! The correct answer is yes")
+    print(Red + "wrong answer! The correct answer is Jupiter")
 
   print("")
 
