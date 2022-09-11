@@ -98,9 +98,9 @@ while True:
 
   print("") 
 
-  Answer10 = qcolor("Is Pluto a dwarf planet? ")
+  Answer10 = qcolor("What is bigger, Jupiter or Saturn? ")
  
-  if Answer10 == 'Yes' or Answer10 == 'yes':
+  if Answer10 == 'Jupiter' or Answer10 == 'jupiter':
     print(Red + "Correct answer!")
   else:
     print(Red + "wrong answer! The correct answer is yes")
